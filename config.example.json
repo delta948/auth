@@ -1,0 +1,22 @@
+{
+  "smtp_server": "smtp.example.com",
+  "smtp_port": 587,
+  "smtp_tls": true,
+  "smtp_user": "your_smtp_user@example.com",
+  "smtp_password": "your_smtp_password_or_app_password",
+  "smtp_from": "no-reply@example.com",
+  "recipient_email": "user@example.com",
+  "email_subject": "Код подтверждения входа",
+  "email_body": "Ваш код: {code}\nЕсли вы не запрашивали код, проигнорируйте это сообщение.",
+
+  "# SMS / Twilio settings (optional)": "",
+  "delivery_method": "email",  
+  "recipient_phone": "+996220894773",
+  "sms_body": "Ваш код: {code}",
+  "twilio_account_sid": "",
+  "twilio_auth_token": "",
+  "sms_from": "+1234567890",
+
+  "resend_cooldown_seconds": 60,
+  "prompt_text": "Введите 6-значный код, отправленный на e-mail"
+}
